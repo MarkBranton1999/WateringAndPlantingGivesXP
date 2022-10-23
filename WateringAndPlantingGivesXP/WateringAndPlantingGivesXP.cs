@@ -112,7 +112,7 @@ namespace WateringAndPlantingGivesXP
                 if(__state[0] is Farmer)
                 {
                     Farmer farmer = (Farmer)__state[0];
-                    farmer.gainExperience(0, 10);
+                    farmer.gainExperience(0, 2);
                 }
             }
         }
