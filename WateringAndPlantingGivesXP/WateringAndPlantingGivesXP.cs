@@ -65,7 +65,7 @@ namespace WateringAndPlantingGivesXP
                 WateringCan can = (WateringCan)who.CurrentTool;
                 if (can.WaterLeft < waterLeft)
                 {
-                    who.gainExperience(0, 1);
+                    who.gainExperience(0, (int)(waterLeft - can.WaterLeft));
                 }
             }
         }

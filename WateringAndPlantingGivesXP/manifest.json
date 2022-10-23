@@ -1,7 +1,7 @@
 {
   "Name": "WateringAndPlantingGivesXP",
   "Author": "Mork",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "Description": "Watering and planting crops gives experience points",
   "UniqueID": "Mork.WateringAndPlantingGivesXP",
   "EntryDll": "WateringAndPlantingGivesXP.dll",
